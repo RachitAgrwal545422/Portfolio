@@ -1,0 +1,125 @@
+.content-wrapper {
+  /* background-color: rgb(197, 139, 148); */
+}
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.ml11 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.img-responsive {
+  border-radius: 2rem;
+  height: 20rem;
+}
+.image {
+  margin-right: -1rem;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+}
+.skills div ul {
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.More button a {
+  text-decoration: none;
+  color: black;
+}
+.More {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.More button {
+  background-color: #ff2f69;
+  border-width: 0ch;
+  border-radius: 1rem;
+  height: 4rem;
+  width: 7rem;
+}
+.ml1 {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 0.5em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 {
+  top: 0;
+}
+.ml1 .line2 {
+  bottom: 0;
+}
